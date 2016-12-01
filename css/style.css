@@ -1,0 +1,17 @@
+#by-line {
+    font-size: 0.6em;
+    text-align: left;
+}
+
+#on-line {
+    font-size: 0.6em;
+    text-align: right;
+}
+#img-box {
+    width: 100%;
+}
+#box {
+    background-color: rgba(230, 230, 230, .6);
+    fill-opacity: 60;
+}
+
