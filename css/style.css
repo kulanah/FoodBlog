@@ -1,17 +1,39 @@
-#by-line {
+.by-line {
     font-size: 0.6em;
     text-align: left;
 }
 
-#on-line {
+.on-line {
     font-size: 0.6em;
     text-align: right;
 }
-#img-box {
+.img-box {
     width: 100%;
 }
 #box {
-    background-color: rgba(230, 230, 230, .6);
-    fill-opacity: 60;
+
 }
 
+.fade-text-box:before {
+    content:'';
+    width:100%;
+    height:100%;
+    position:absolute;
+    left:0;
+    top:0;
+    background:linear-gradient(transparent, white);
+}
+
+.fade-text-box {
+    max-height: 150px;
+    overflow:hidden;
+    text-overflow: clip;
+    border-bottom: #FFFFFF;
+    text-align: justify;
+    text-justify: inter-word;
+    margin-right:20px;
+}
+
+.content-row {
+    padding-top:25px;
+}
